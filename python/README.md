@@ -12,7 +12,7 @@ Inline comments explaining why something works, not just how
 References to real-world scenarios (brute-force detection, memory forensics, SIEM integration)
 Notes on what libraries and APIs are used in production environments
 
-**They are structured like study guides with runnable examples, similar to a Jupyter notebook but in plain .py format. Many reference external files (auth.log, sample.exe, etc.) or require API keys they are meant to be read and adapted, not run directly.**
+They are structured like study guides with runnable examples, similar to a Jupyter notebook but in plain .py format. Many reference external files (auth.log, sample.exe, etc.) or require API keys — they are meant to be read and adapted, not run directly.
 ---
 <img width="834" height="663" alt="image" src="https://github.com/user-attachments/assets/95b9a1ff-c1ae-4510-89bb-f711aefc0b62" />
 
@@ -22,7 +22,7 @@ Notes on what libraries and APIs are used in production environments
 ### **[01_security-automation](./01_security-automation/)**
 
 Covers Python-driven OS command execution, network reconnaissance with Nmap and raw sockets, REST API integration, filesystem monitoring with watchdog, APScheduler for continuous monitoring, and structured data output (CSV/JSON/Excel).
-**Key concepts learned:** subprocess safety, socket programming, scheduler design, output formatting for SOC consumption.
+- **Key concepts learned:** subprocess safety, socket programming, scheduler design, output formatting for SOC consumption.
 
 **Layer 1: Asset Discovery & Reconnaissance**
 
