@@ -21,8 +21,8 @@ They are structured like study guides with runnable examples, similar to a Jupyt
 
 ### **[01_security-automation](./01_security-automation/)**
 
-Covers Python-driven OS command execution, network reconnaissance with Nmap and raw sockets, REST API integration, filesystem monitoring with watchdog, APScheduler for continuous monitoring, and structured data output (CSV/JSON/Excel).
-- **Key concepts learned:** subprocess safety, socket programming, scheduler design, output formatting for SOC consumption.
+Covers Python-driven OS command execution, network reconnaissance with Nmap and raw sockets, REST API integration, filesystem monitoring with watchdog, APScheduler for continuous monitoring, and structured data output (CSV/JSON/Excel).  
+**Key concepts learned:** subprocess safety, socket programming, scheduler design, output formatting for SOC consumption.
 
 **Layer 1: Asset Discovery & Reconnaissance**
 
@@ -35,7 +35,7 @@ Covers Python-driven OS command execution, network reconnaissance with Nmap and 
 - Continuous scheduling and monitoring
 - Data handling and output generation
 
-**Output**: Asset inventory, service mappings, exposure reports
+**Output**: Asset inventory, service mappings, exposure reports  
 **Real-world use**: Continuous asset discovery feeds your SIEM's inventory layer
 
 [→ Full Module Details](./01_security-automation/README.md)
@@ -44,7 +44,7 @@ Covers Python-driven OS command execution, network reconnaissance with Nmap and 
 
 ### **[02_soc-analysis](./02_soc-analysis/)**
 
-Covers log normalization from multiple source types, regex-based detection of brute-force and off-hours logins, event correlation across auth/file/command logs, dashboard export formats, and enriching log events with external threat intelligence APIs.
+Covers log normalization from multiple source types, regex-based detection of brute-force and off-hours logins, event correlation across auth/file/command logs, dashboard export formats, and enriching log events with external threat intelligence APIs.  
 **Key concepts learned:** log parsing patterns, threshold-based alerting, multi-source correlation, data enrichment pipelines.
 
 **Layer 2: Log Analysis & Detection**
@@ -57,7 +57,7 @@ Covers log normalization from multiple source types, regex-based detection of br
 - Data export to dashboards (CSV, Excel, JSON)
 - Log enrichment with external intelligence
 
-**Output**: Normalized events, alerts, dashboards
+**Output**: Normalized events, alerts, dashboards  
 **Real-world use**: The heartbeat of your SIEM—where raw events become intelligence
 
 [→ Full Module Details](./02_soc-analysis/README.md)
@@ -66,7 +66,7 @@ Covers log normalization from multiple source types, regex-based detection of br
 
 ### **[03_threat-intelligence](./03_threat-intelligence/)**
 
-Covers connecting to STIX/TAXII and OTX feeds, enriching IOCs (IPs, domains, hashes) via VirusTotal, AbuseIPDB, SecurityTrails, and GreyNoise APIs, and generating structured threat reports with scoring and recommendations.
+Covers connecting to STIX/TAXII and OTX feeds, enriching IOCs (IPs, domains, hashes) via VirusTotal, AbuseIPDB, SecurityTrails, and GreyNoise APIs, and generating structured threat reports with scoring and recommendations.  
 **Key concepts learned:** TI feed consumption, API rate limiting, IOC scoring, report generation.
 API keys required — placeholders are in place. Replace with your own keys before running
 
@@ -78,7 +78,7 @@ API keys required — placeholders are in place. Replace with your own keys befo
 - Enriching IOCs via public and commercial APIs
 - Generating actionable reports and indicators
 
-**Output**: Enriched IOC database, threat reports, recommendations
+**Output**: Enriched IOC database, threat reports, recommendations  
 **Real-world use**: Transform your SIEM from reactive to proactive threat hunting
 
 [→ Full Module Details](./03_threat-intelligence/README.md)
@@ -87,7 +87,7 @@ API keys required — placeholders are in place. Replace with your own keys befo
 
 ### **[04_malware-analysis](./04_malware-analysis/)**
 
-Covers MD5/SHA256/SHA512 file hashing, magic byte and PE header inspection, string and IOC extraction from binaries, YARA rule integration, behavioral sandbox emulation hooks, memory dump carving, and Hybrid Analysis API automation.
+Covers MD5/SHA256/SHA512 file hashing, magic byte and PE header inspection, string and IOC extraction from binaries, YARA rule integration, behavioral sandbox emulation hooks, memory dump carving, and Hybrid Analysis API automation.  
 **Key concepts learned:** static analysis workflow, YARA rule syntax, memory forensics basics, sandbox API integration.
 
 **Layer 4a: Malware Analysis & IOC Extraction**
@@ -103,7 +103,7 @@ Covers MD5/SHA256/SHA512 file hashing, magic byte and PE header inspection, stri
 - Automating analysis with Hybrid Analysis
 - Extracting malware configurations
 
-**Output**: IOC lists, severity assessments, YARA rules, behavioral profiles
+**Output**: IOC lists, severity assessments, YARA rules, behavioral profiles  
 **Real-world use**: Investigation layer that validates threats detected by other layers
 
 [→ Full Module Details](./04_malware-analysis/README.md)
@@ -112,7 +112,7 @@ Covers MD5/SHA256/SHA512 file hashing, magic byte and PE header inspection, stri
 
 ### **[05_detection-engineering](./05_detection-engineering/)**
 
-Covers Splunk/ELK/Sumo Logic API integration, syslog and HTTP event forwarding, CrowdStrike and SentinelOne API interaction, automated IOC blocking in firewalls and EDR, custom detection pipeline design, real-time alerting, and threat hunting query automation.
+Covers Splunk/ELK/Sumo Logic API integration, syslog and HTTP event forwarding, CrowdStrike and SentinelOne API interaction, automated IOC blocking in firewalls and EDR, custom detection pipeline design, real-time alerting, and threat hunting query automation.  
 **Key concepts learned:** SIEM ingestion methods, EDR API patterns, response automation logic, pipeline architecture.
 
 **Layer 5: SIEM & EDR Integration**
@@ -127,7 +127,7 @@ Covers Splunk/ELK/Sumo Logic API integration, syslog and HTTP event forwarding, 
 - Custom dashboards from SIEM/EDR data
 - Threat hunting automation
 
-**Output**: Alerts, dashboards, automated responses, hunt results
+**Output**: Alerts, dashboards, automated responses, hunt results  
 **Real-world use**: Orchestration layer that ties all security tools together
 
 [→ Full Module Details](./05_detection-engineering/README.md)
@@ -136,7 +136,7 @@ Covers Splunk/ELK/Sumo Logic API integration, syslog and HTTP event forwarding, 
 
 ### **[06_advanced-analysis](./06_advanced-analysis/)**
 
-Covers building YARA scanners, integrating Python with Cuckoo Sandbox, extracting embedded shellcode from PE files, PCAP parsing for network-based IOCs, detecting anti-analysis evasion techniques, and memory dump IOC extraction.
+Covers building YARA scanners, integrating Python with Cuckoo Sandbox, extracting embedded shellcode from PE files, PCAP parsing for network-based IOCs, detecting anti-analysis evasion techniques, and memory dump IOC extraction.  
 **Key concepts learned:** advanced static/dynamic analysis, PCAP analysis with Scapy, evasion detection heuristics, memory forensics with Volatility.
 
 **Layer 4b: Advanced Forensics & Memory Analysis**
@@ -150,7 +150,7 @@ Covers building YARA scanners, integrating Python with Cuckoo Sandbox, extractin
 - Memory dump analysis and IOC extraction
 - YARA rule matching in memory and files
 
-**Output**: YARA rules, behavioral signatures, configuration intelligence
+**Output**: YARA rules, behavioral signatures, configuration intelligence  
 **Real-world use**: Deep investigation capability for sophisticated threats
 
 [→ Full Module Details](./06_advanced-analysis/README.md)
