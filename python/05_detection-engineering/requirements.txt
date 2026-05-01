@@ -1,0 +1,11 @@
+# Module 5: Detection Engineering - SIEM, EDR & Firewall Integration
+# Dependencies for platform integration, custom pipelines, alerting & orchestration
+
+requests>=2.28.0
+elasticsearch>=8.0.0
+splunk-sdk>=1.7.0
+falcon-py>=1.2.0
+python-dotenv>=0.20.0
+pydantic>=1.9.0
+APScheduler>=3.10.0
+slack-sdk>=3.19.0

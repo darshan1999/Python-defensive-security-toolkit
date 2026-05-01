@@ -1,0 +1,11 @@
+# Module 2: SOC Analysis - Log Parsing, Normalization & Detection
+# Dependencies for log analysis, event correlation, and behavioral detection
+
+requests>=2.28.0
+pandas>=1.5.0
+PyYAML>=6.0
+elasticsearch>=8.0.0
+python-dotenv>=0.20.0
+dateutil>=2.8.2
+regex>=2022.0.0
+openpyxl>=3.8.0
