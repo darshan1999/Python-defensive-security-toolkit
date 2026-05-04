@@ -2,7 +2,7 @@
 
 **Complete end-to-end security automation and threat detection framework**
 
-This repository contains a comprehensive defensive security portfolio combining 114 production-ready tools with 6 SIEM implementation modules. It's designed for security professionals, SOC analysts, and defenders working in enterprise environments.
+This repository contains a comprehensive defensive security portfolio combining 100+ tools with 6 SIEM implementation modules. It's designed for security professionals, SOC analysts, and defenders working in enterprise environments.
 
 ---
 
