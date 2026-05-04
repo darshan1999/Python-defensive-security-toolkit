@@ -2,7 +2,7 @@
 
 **Complete toolkit for enterprise security operations, detection, and response**
 
-This directory contains 114 production-ready Python tools organized by security function. These tools integrate with the 6 SIEM modules in the `python/` folder and can be deployed independently or as part of a larger security orchestration platform.
+This directory contains 100+ Python tools organized by security function. These tools integrate with the 6 SIEM modules in the `python/` folder and can be deployed independently or as part of a larger security orchestration platform.
 
 ---
 
