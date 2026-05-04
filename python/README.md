@@ -2,7 +2,7 @@
 
 Note for recruiters and reviewers: 
 This folder contains my coursework and learning notes from studying blue team Python and SIEM architecture. These are annotated scripts written while working through security automation concepts — they are intentionally educational, not production tools.
-For production-ready, runnable tools see the tools/ directory — 114 standalone scripts with full CLI interfaces, argparse, and error handling.
+For runnable tools see the tools/ directory — 114 standalone scripts with full CLI interfaces, argparse, and error handling.
 
 **What this folder is**
 Each sub-module here is a Python file I wrote while learning a specific security concept. The files contain:
@@ -169,7 +169,7 @@ Python automation for blue team workflows:-
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│        Your Organization's SIEM Architecture                │
+│         Organization's SIEM Architecture                │
 ├─────────────────────────────────────────────────────────────┤
 │                                                               │
 │  Layer 5: Integration & Orchestration                        │
@@ -321,7 +321,7 @@ By working through these modules, you'll demonstrate:
 
 ## 📚 Production Deployment
 
-These modules are production-ready and can be deployed:
+These modules can be deployed:
 - As standalone security tools
 - Integrated into existing SIEM platforms
 - Orchestrated through SOAR (Security Orchestration, Automation and Response)
